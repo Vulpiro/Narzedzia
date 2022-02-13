@@ -60,10 +60,10 @@ int main()
 
 	srand(time(NULL));
 
-	int wybor;
+	int choice;
 	cout << "Czy tablica ma byc generowana losowo? 1 dla tak, 0 dla nie: " << endl;
-	cin >> wybor;
-	switch (wybor)
+	cin >> choice;
+	switch (choice)
 	{
 	case 0:
 		cout << "Tablica nie zostanie wygenerowana losowo" << endl;
